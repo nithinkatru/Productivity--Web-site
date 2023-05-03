@@ -1,0 +1,50 @@
+<!-- This is an HTML document -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This section contains metadata about the document -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This links to an external CSS file for styling -->
+    <link rel="stylesheet" href="CSS\style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- This is the header section, which contains a navigation bar -->
+    <header>
+      <!-- This is the navigation bar, which is initially hidden -->
+      <nav style="display:none;">
+        <ul>
+          <!-- These are the links in the navigation bar -->
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li  class="nav-item1"><a href="To-do-list/todolist.html">To-Do-List</a></li>
+          <li  class="nav-item1"><a href="Task-schedular/task schedular.html">Task Schedular</a></li>
+          <li  class="nav-item1"><a href="GOAL-SETTER/goalsetter.html">Goal Setter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- This is the welcome section, which prompts the user to enter their name -->
+    <div class="welcome-section">
+      <h1 class="intro">Welcome to ProductivityHub!</h1>
+      <p class="intro1">Please enter your name to continue:</p>
+      <!-- This is a form for the user to input their name -->
+      <form>
+        <input type="text" id="name-input"> <br>
+        <button type="submit" id="name-submit">Submit</button>
+      </form>
+    </div>
+    <!-- This is the home section, which displays after the user submits their name -->
+    <div class="home-section" style="display:none;">
+      <h2 class="greeting">Hello, <span id="name-output"></span>!</h2>
+      <p class="greetings">"Are you tired of feeling overwhelmed by your to-do list? Do you struggle to stay focused <br>and  motivated throughout the day? Look no further than our productivity website! <br> Our site is designed to help you streamline your tasks and maximize your time, so you can achieve more and stress less. With easy-to-use tools and helpful resources, you'll be able to stay organized, set goals, and track your progress with ease. Say goodbye to procrastination and hello to productivity with our website. Sign up today and start making the most of your time!" </p>
+    </div>
+    <!-- This links to an external JavaScript file for interactivity -->
+    <script src="JS\welcome.js"></script>
+  
+    <!-- This is the footer section, which displays copyright information -->
+    <div class="copyright">
+      <p class="secondheading">&copy; NITHIN_KATRU/8884417@2023</p>
+    </div>
+  </body>
+</html>

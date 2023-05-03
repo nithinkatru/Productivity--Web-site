@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link to external style  -->
+    <link rel="stylesheet" href="CSS/goalsetter.css">
+</head>
+<body>
+  <!-- header element -->
+    <header>
+      <!-- Main heading -->
+        <h1 class="hero">GOAL SETTER</h1>
+        <nav>
+          <ul>
+            <!-- list items -->
+            <li class="nav-item"><a href="../index.html">Home</a></li>
+            <li  class="nav-item1"><a href="../To-do-list/todolist.html">To-Do-List</a></li>
+            <li  class="nav-item3"><a href="../Task-schedular/task schedular.html">Task Schedular</a></li>
+            <li  class="nav-item2"><a href="../GOAL-SETTER/goalsetter.html">Goal Setter</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Div named goal container -->
+    <div id="goals-container">
+        <h2 class="second-heading">My Goals</h2>
+      <!-- creating a form goal form -->
+        <form id="goal-form">
+          <label for="goal-title">Goal Title</label>
+          <input type="text" id="goal-title">
+          <!-- created a label named goal description -->
+          <label for="goal-description">Goal Description</label>
+          <textarea id="goal-description"></textarea>
+      
+          <label for="goal-deadline">Deadline</label>
+          <input type="date" id="goal-deadline">
+      
+          <button type="submit" id="add-goal-button">Add Goal</button>
+        </form>
+      <!-- div named goal list -->
+        <div id="goal-list">
+          <h3>My Current Goals</h3>
+          <ul id="goal-ul"></ul>
+          
+        </div>
+      </div>
+      <!-- external java script -->
+      <script src="JS/goalsetter.js"></script>
+      <div class="copyright">
+        <p class="secondheading">&copy; NITHIN_KATRU/8884417@2023</p>
+      </div>
+      
+</body>
+</html>

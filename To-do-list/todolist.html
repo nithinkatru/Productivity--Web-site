@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta data -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2021</title>
+	<!-- external link to style sheet -->
+	<link rel="stylesheet" href="CSS/todolist.css" />
+</head>
+<body>
+	<!-- Nav bar -->
+		<nav >
+		  <ul>
+			<!-- list items -->
+			<li class="nav-item"><a href="../index.html">Home</a></li>
+			<li  class="nav-item1"><a href="todolist.html">To-Do-List</a></li>
+			<li  class="nav-item1"><a href="../Task-schedular/task schedular.html">Task Schedular</a></li>
+			<li  class="nav-item1"><a href="../GOAL-SETTER/goalsetter.html">Goal Setter</a></li>
+		  </ul>
+		</nav>
+	<header>
+		<!-- main heading -->
+		<h1>Task List </h1>
+		<!-- creating a from named new task -->
+		<form id="new-task-form">
+			<!-- taking input from the user -->
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Enter ur task here" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<!-- secodary heading -->
+			<h2>Tasks</h2>
+			<div id="tasks">	
+			</div>
+		</section>
+	</main>
+	<!-- external link to javascript -->
+	<script src="JS/todolist.js"></script>
+	<!-- div for copyright -->
+	<div class="copyright">
+		<p class="secondheading">&copy; NITHIN_KATRU/8884417@2023</p>
+	  </div>
+</body>
+</html>

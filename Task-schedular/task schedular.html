@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Scheduler</title>
+    <!-- external link to style sheet -->
+    <link rel="stylesheet" href="CSS/task-schedular.css">
+    <!-- external link to js -->
+    <link rel="stylesheet" href="JS/task-schedular.js">
+  </head>
+  <body>
+    <header>
+      <!-- main heading -->
+      <h1 class="hero">Task Scheduler</h1>
+      <nav>
+        <ul>
+         <!-- link items -->
+          <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li  class="nav-item1"><a href="../To-do-list/todolist.html">To-Do-List</a></li>
+          <li  class="nav-item1"><a href="task schedular.html">Task Schedular</a></li>
+          <li  class="nav-item2"><a href="../GOAL-SETTER/goalsetter.html">Goal Setter</a></li>
+          <li><a href="#add-task">Add Task</a></li>
+          <li><a href="#view-tasks">View Tasks</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- section id with addtask -->
+      <section id="add-task">
+        <h2>Add Task</h2>
+        <!-- creating a from element named task heading -->
+        <form class="taskheading">
+          <label for="task-name">Task Name:</label>
+          <input type="text" id="task-name" name="task-name" required>
+          <!-- label for task description -->
+          <label for="task-desc">Task Description:</label>
+          <textarea id="task-desc" name="task-desc" required></textarea>
+          <!-- label for the due date -->
+          <label for="due-date">Due Date:</label>
+          <input type="date" id="due-date" name="due-date" required>
+          <!-- label for priority -->
+          <label for="priority">Priority:</label>
+          <select id="priority" name="priority" required>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+          <!-- button for the submit -->
+          <button type="submit">Add Task</button>
+        </form>
+      </section>
+      <section id="view-tasks">
+        <h2>View Tasks</h2>
+        <div id="tasks-container">
+          <table>
+            <thead>
+              <!-- table head -->
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <!-- copyright information -->
+    <script src="JS/task-schedular.js"></script>
+    <div class="copyright">
+      <p class="secondheading">&copy; NITHIN_KATRU/8884417@2023</p>
+    </div>
+  </body>
+</html>

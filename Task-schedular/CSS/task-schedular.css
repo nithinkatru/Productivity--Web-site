@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Set default styles for the page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../../Images/task.jpg");
+  background-size: cover;
+}
+
+/* Style the header section */
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the hero section */
+.hero {
+  color: white;
+}
+
+/* Style the task heading */
+.taskheading {
+  color: #fff;
+  font-size: medium;
+  font-weight: 300;
+}
+
+/* Style the add task button */
+#add-task {
+  background-color: transparent;
+}
+
+/* Style the navigation */
+nav {
+  /* Additional styles for the navigation */
+}
+
+/* Style the second navigation item */
+.nav-item2 {
+  padding-right: 20em;
+}
+
+/* Style the navigation list */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Style the navigation items */
+nav li {
+  margin-left: 20px;
+}
+  /* style for the nav links */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  /* style for thr main */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* style for section */
+  section {
+    margin-top: 50px;
+  }
+  /* style for secondaty heading */
+  h2 {
+    margin-bottom: 10px;
+    color: white;
+    padding-left: 5.5em;
+  }
+  /* style for form */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* style for label */
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  /* input style */
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  /* style for the submit button */
+  button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0055a5;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+  }
+  /* style for the table head table data */
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+  }
+  /* style for table head */
+  table th {
+    background-color: #060606;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table td:last-child {
+    text-align: center;
+  }
+  
+  .task-row {
+    cursor: pointer;
+    background-color: #fff;
+  }
+/* style for the copyright data */
+  .copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;
+    padding-top: 5em;
+    text-align: center;
+    color: white;
+    padding-left: 5%;
+  }
+  

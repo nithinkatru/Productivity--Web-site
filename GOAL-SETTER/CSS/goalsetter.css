@@ -1,0 +1,223 @@
+/* Set width to 80% and center the container horizontally */
+#goals-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Set margin to 0, use sans-serif font family and set the background image to hero2.jpg */
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../../Images/hero2.jpg");
+  background-size: cover;
+}
+
+/* Set background color to semi-transparent black, add padding, and display header content with flexbox */
+header {
+  background-color:  rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Set style for form labels and inputs */
+#goal-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#goal-form input[type="text"],
+#goal-form textarea,
+#goal-form input[type="date"] {
+  display: block;
+  width: 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+/* Set style for Add Goal button */
+#add-goal-button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Set style for hover effect on Add Goal button */
+#add-goal-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Set style for Goal List section */
+#goal-list h3 {
+  margin-top: 2rem;
+}
+#goal-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+  .nav-item2{
+padding-right: 15em; /* adds padding to the right of the navigation item */
+}
+
+.goal-item {
+border: 1px solid #ccc;
+border-radius: 0.25rem;
+margin-bottom: 1rem;
+padding: 0.5rem;
+}
+
+.goal-item h4 {
+margin-top: 0;
+}
+
+.goal-item p {
+margin-bottom: 0;
+}
+
+.goal-item .progress {
+margin-top: 0.5rem;
+height: 0.5rem;
+background-color: #ddd;
+border-radius: 0.25rem;
+}
+
+.goal-item .progress .progress-bar {
+height: 100%;
+background-color: #4CAF50;
+border-radius: 0.25rem;
+}
+
+.nav-item2{
+padding-right: 20em; /* increases the padding to the right of the navigation item */
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+margin-left: 20px; /* adds margin to the left of each navigation item */
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+background-color: transparent;
+font-size: 1.3em;
+}
+
+.hero{
+color: white;
+}
+
+.nav-item{
+padding-right: 3em; /* adds padding to the right of the navigation item */
+}
+
+.nav-item1{
+padding-right: 3em; /* adds padding to the right of the navigation item */
+}
+
+.nav-item3{
+padding-right: 3em; /* adds padding to the right of the navigation item */
+}
+
+.second-heading{
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+}
+
+#goals-container{
+color: white;
+font-size: medium;
+}
+
+.goal-item {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.goal-item h4 {
+margin: 0;
+font-size: 24px;
+}
+
+.goal-item p {
+margin: 0;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.goal-item h5 {
+margin: 0;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.goal-item form {
+display: flex;
+flex-direction: column;
+}
+
+.goal-item label {
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+.goal-item input,
+.goal-item textarea {
+font-size: 16px;
+padding: 5px;
+margin-bottom: 10px;
+border-radius: 3px;
+border: 1px solid #ccc;
+}
+
+  .goal-item button {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .progress {
+    width: 100%;
+    height: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #007bff;
+  }
+  
+  .copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: white;
+    padding-left: 10%;
+    padding-top: 11em;
+  }
